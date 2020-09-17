@@ -27,7 +27,7 @@ jobs:
         id: evaluator
         if: steps.wait-for-build.outputs.conclusion == 'success'
         env:
-          DBNAME: 'aggregations'
+          DBNAME: 'mongoflix'
         with:
           repository-import-folder: 'assets'
           repository-challenges-folder: 'challenges'

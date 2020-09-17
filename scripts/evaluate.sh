@@ -6,6 +6,6 @@ then
     exit
 fi
 
-export DBNAME=aggregations
+export DBNAME=mongoflix
 
 scripts/generate_result.sh "$PWD/challenges" "$PWD/.trybe" "$PWD/assets"
