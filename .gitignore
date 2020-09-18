@@ -2,7 +2,7 @@
 .vscode
 
 # BSON data files
-assets/*/*.bson
+# assets/*/*.bson
 
 # Compressed files resulted from the join of their correspondent splitted files
-assets/*/dump.tar.gz
+# assets/*/dump.tar.gz
