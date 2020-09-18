@@ -11,9 +11,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 ### ANTES DE COMEÇAR A DESENVOLVER:
 
 1. Clone o repositório
-  * `git clone git@github.com:tryber/sd-0x-project-mongo-bug-hunting.git`.
+  * `git clone git@github.com:tryber/sd-0x-project-mongoflix-bug-hunting.git`.
   * Entre na pasta do repositório que você acabou de clonar:
-    * `cd sd-0x-project-mongo-bug-hunting`
+    * `cd sd-0x-project-mongoflix-bug-hunting`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -40,13 +40,13 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
   * Usando o exemplo anterior: `git push -u origin seu-nome-mongoflix-bug-hunting`
 
 6. Crie um novo `Pull Request` _(PR)_
-  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-mongo-bug-hunting/pulls)
+  * Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-0x-project-mongoflix-bug-hunting/pulls)
   * Clique no botão verde _"New pull request"_
   * Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**
   * Clique no botão verde _"Create pull request"_
   * Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
   * **Não se preocupe em preencher mais nada por enquanto!**
-  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-mongo-bug-hunting/pulls) e confira que o seu _Pull Request_ está criado
+  * Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-0x-project-mongoflix-bug-hunting/pulls) e confira que o seu _Pull Request_ está criado
 
 ---
 
@@ -54,9 +54,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 
 Uma equipe de pessoas desenvolvedoras estava encarregada de criar relatórios a partir de um banco de dados de filmes.
 
-Porém, a equipe que estava encarregada não conhecia muito sobre mongo. Com isso, as queries para gerar esses relatórios possuem bugs que fez alguns relatórios apresentarem dados errados ou mesmo não funcionarem,
+Porém, a equipe que estava encarregada não conhecia muito sobre Mongo. Com isso, as queries para gerar esses relatórios possuem bugs que fez alguns relatórios apresentarem dados errados ou mesmo não funcionarem,
 
-Dito isso, vocês foram selecionados para este desáfio, por já conhecerem o Mongo.
+Dito isso, vocês foram selecionados para este desafio, por já conhecerem o Mongo.
 
 Sendo assim, vocês estão encarregados desta demanda de retificar os relatório. A retificação consiste em encontrar e corrigir os famigerados bugs nas queries.
 
@@ -83,7 +83,7 @@ Para isso você deve corrigir cada um dos arquivos do desafio 1 a 7 a fim de que
 
 ## Implementações técnicas
 
-Para executar localmente os testes, é preciso escrever o seguinte no seu terminal, estando na raiz do diretório do projeto:
+Para executar localmente os testes, é preciso escrever o seguinte comando no seu terminal, estando na raiz do diretório do projeto:
 ```sh
 ./scripts/evaluate.sh
 ```
